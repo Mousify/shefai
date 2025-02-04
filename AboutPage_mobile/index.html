@@ -3,152 +3,215 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>About page</title>
+    <title>About Page</title>
     <link rel="stylesheet" href="css/styles.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://gistcdn.githack.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css"
+    />
   </head>
   <body>
     <header>
       <div class="menu-bar">
-      <!--navigation-->
-      <div class="nav">
-      <input type="checkbox" id="menuToggle" class="menu-toggle" />
-      <label for="menuToggle" class="menu-icon"><img src="../About Page/images/menu.png" alt="menu"></label>
-      <div class="menu-drawer">
-        <ul>
-          <li><a href="#option1">Home</a></li>
-          <li><a href="#option2">About</a></li>
-          <li><a href="#option3">More</a></li>
-        </ul>
-      </div>
-      <!-- logo -->
-      <div class="logo">
-        <img src="../About Page/images/Logo.png" alt="logotipas">
-      </div>
-      <!--contact us-->
-      <div class="contact">
-        <input type="checkbox" id="menuToggle2" class="menu-toggle2" />
-        <label for="menuToggle2" class="contact-icon"><img src="../About Page/images/Button.png" alt=""></label>
-        <div class="menu-drawer2">
-          <ul>
-            <li><a href="#option1">Contact</a></li>
-          </ul>
+        <!-- Main Navigation -->
+        <nav class="nav">
+          <input type="checkbox" id="menuToggle" class="menu-toggle" />
+          <label for="menuToggle" class="menu-icon">
+            <img src="images/menu.png" alt="Navigation menu" />
+          </label>
+          <div class="menu-drawer">
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#goals">About</a></li>
+              <li><a href="#more">More</a></li>
+            </ul>
+          </div>
+        </nav>
+
+        <!-- Logo -->
+        <div class="logo">
+          <img src="images/logo.png" alt="Company logo" />
         </div>
+
+        <!-- Contact Navigation -->
+        <nav class="contact">
+          <input type="checkbox" id="contactToggle" class="menu-toggle" />
+          <label for="contactToggle" class="contact-icon">
+            <img src="images/button.png" alt="Contact menu" />
+          </label>
+          <div class="menu-drawer">
+            <ul>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+        </nav>
       </div>
     </header>
+
     <main>
       <div class="container">
         <!-- Goals Section -->
         <section id="goals" class="goals">
           <h2>What are our goals?</h2>
           <p class="goals-description">
-            IT Support Group has worked with more than 200 businesses (and counting) in the past 10 years and we offer our experience with the best expert talent pool in the industry to fulfil all your application development needs.
+            IT Support Group has worked with more than 200 businesses (and
+            counting) in the past 10 years and we offer our experience with the
+            best expert talent pool in the industry to fulfil all your
+            application development needs.
           </p>
           <p class="goals-description">
-            We deploy best practices, proven development methodologies and time-tested optimum delivery models for developing and building applications on a fixed time, fixed cost basis.
+            We deploy best practices, proven development methodologies, and
+            time-tested optimum delivery models for developing and building
+            applications on a fixed time, fixed cost basis.
           </p>
 
           <div class="stats-grid">
-              <div class="stat-item">
-                  <span class="stat-number">10</span>
-                  <p>Years in the business</p>
-              </div>
-              <div class="stat-item">
-                  <span class="stat-number">200</span>
-                  <p>Satisfied customers</p>
-              </div>
-              <div class="stat-item">
-                  <span class="stat-number">10+</span>
-                  <p>Strong developers</p>
-              </div>
-              <div class="stat-item">
-                  <span class="stat-number">8-10</span>
-                  <p>Awards/projects/sales with</p>
-              </div>
+            <div class="stat-item">
+              <h2 class="stat-number">10</h2>
+              <p>Years in this industries</p>
+            </div>
+            <div class="stat-item">
+              <h2 class="stat-number">200</h2>
+              <p>Clients worldwide</p>
+            </div>
+            <div class="stat-item">
+              <h2 class="stat-number">10+</h2>
+              <p>Strong developers</p>
+            </div>
+            <div class="stat-item">
+              <h2 class="stat-number">8-10</h2>
+              <p>Weeks project take with development</p>
+            </div>
           </div>
+
+          <!-- spheres -->
 
           <div class="color-palette">
-              <div class="color-dot black"></div>
-              <div class="color-dot dark-gray"></div>
-              <div class="color-dot blue"></div>
-              <div class="color-dot light-blue"></div>
-              <div class="color-dot white"></div>
-              <div class="color-dot plus">+</div>
+            <div class="color-dot plus">
+              <img
+                src="../AboutPage_mobile/images/plus.png"
+                alt="Plus sign"
+              />
+            </div>
+            <div class="color-dot light-blue"></div>
+            <div class="color-dot blue"></div>
+            <div class="color-dot dark-gray"></div>
+            <div class="color-dot black"></div>
           </div>
-      </section>
+        </section>
 
-      <!-- Team Section -->
-      <section id="team" class="team">
+        <!-- Team Section -->
+        <section id="team" class="team">
           <h2>Our Team</h2>
-          
+          <p>We started our way with the idea of creating innovative products, and we have been following this trend since 2013 and continue to build technological solutions for our customers.</p>
+          <img src="../AboutPage_mobile/images/image2.png" alt="image2">
           <div class="values">
-              <div class="value-item">
-                  <h3>[01]</h3>
-                  <h4>Honesty</h4>
-                  <p>We are honest to build trust with our team and clients.</p>
-              </div>
-              <div class="value-item">
-                  <h3>[02]</h3>
-                  <h4>Punctuality</h4>
-                  <p>We deliver our work on time and with the agreed quality.</p>
-              </div>
-              <div class="value-item">
-                  <h3>[03]</h3>
-                  <h4>Precision</h4>
-                  <p>We pay attention to detail when we do work for our clients.</p>
-              </div>
+            <div class="value-item">
+              <h3>[ 01 ]</h3>
+              <h4>Honesty</h4>
+              <p>We are honest to build trust with our team and clients.</p>
+              <hr>
+            </div>
+            <div class="value-item">
+              <h3>[ 02 ]</h3>
+              <h4>Punctuality</h4>
+              <p>We deliver our work on time and with the agreed quality.</p>
+              <hr>
+            </div>
+            <div class="value-item">
+              <h3>[ 03 ]</h3>
+              <h4>Precision</h4>
+              <p>We pay attention to detail when we do work for our clients.</p>
+            </div>
           </div>
-      </section>
+        </section>
 
-      <!-- Timeline Section -->
-      <section id="timeline" class="timeline">
+        <!-- Timeline Section -->
+        <section id="timeline" class="timeline">
           <h2>IT Support Group through the years</h2>
           <div class="timeline-container">
-              <div class="timeline-item">
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-content">
-                      <h3>2018</h3>
-                      <p>Our team was formed.</p>
-                  </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>2018</h3>
+                <p>Our team was formed.</p>
               </div>
-              <div class="timeline-item">
-                  <div class="timeline-dot"></div>
-                  <div class="timeline-content">
-                      <h3>2020</h3>
-                      <p>We expanded our services.</p>
-                  </div>
+            </div>
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <h3>2020</h3>
+                <p>We expanded our services.</p>
               </div>
+            </div>
           </div>
-      </section>
+        </section>
 
-      <!-- Testimonials Section -->
-      <section id="testimonials" class="testimonials">
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="testimonials">
           <h2>What our clients say about us</h2>
           <div class="testimonial-card">
-              <div class="testimonial-header">
-                  <div class="avatar"></div>
-                  <div class="author-info">
-                      <h4>Tom Smith</h4>
-                      <p>CEO at TechCorp</p>
-                  </div>
+            <div class="testimonial-header">
+              <div class="avatar"></div>
+              <div class="author-info">
+                <h4>Tom Smith</h4>
+                <p>CEO at TechCorp</p>
               </div>
-              <p class="testimonial-text">
-                  "Great service and professional team. They helped us solve our IT issues quickly and efficiently."
-              </p>
+            </div>
+            <p class="testimonial-text">
+              "Great service and professional team. They helped us solve our IT
+              issues quickly and efficiently."
+            </p>
           </div>
-      </section>
+        </section>
 
-      <!-- Contact Form -->
-      <section id="contact" class="contact">
+        <!-- Contact Form -->
+        <section id="contact" class="contact-form-section">
           <h2>Get in touch with us</h2>
           <form class="contact-form">
-              <input type="text" placeholder="Your name" required>
-              <input type="email" placeholder="Your email" required>
-              <input type="text" placeholder="Subject" required>
-              <textarea placeholder="Your message" required></textarea>
-              <button type="submit">Send Message</button>
+            <div class="form-group">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Your name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Your email"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject:</label>
+              <input
+                type="text"
+                id="subject"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="message">Message:</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Your message"
+                required
+              ></textarea>
+            </div>
+            <button type="submit">Send Message</button>
           </form>
-      </section>
-  </div>
+        </section>
       </div>
     </main>
   </body>
